@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<title>Web Programming HW2</title>
+</head>
+<body>
+  <h2 style="font-family:verdana; text-align:center; margin:50px;">Challenge!!!</h2>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+        var socket = io.connect('http://127.0.0.1:7000');
+        socket.on('connect', function() {
+            <!-- socket.emit('message', {data: 'I\'m connected!', good: 'hi~~'}); -->
+            socket.send('An user has connected!');
+        });
+        socket.on('got_user', function(user){
+          $("#messages").append('<li style=font-family:verdana; margin:auto; text-align:center>'+user+'</li>');
+        });
+        socket.on('message', function(msg){
+          $("#messages").append('<li style=font-family:verdana; margin:auto; text-align:center>'+msg+'</li>');
+        });
+        $('#sendbotton').on('click', function(){
+          socket.send($('#MyMessage').val());
+          $('#MyMessage').val('');
+        });
+    });
+    $(document).on('keypress',function(e) {
+      if(e.which == 13) {
+        $('#sendbotton').click();
+      }
+    });
+  </script>
+  <ul id="messages">
+    {% for msg in messages %}
+    {{msg}}
+    <br>
+    {% endfor %}
+  </ul>
+  <input type="text" id="MyMessage" autofocus/>
+  <button id="sendbotton">Send</button>
+
+</body>
+</html>
