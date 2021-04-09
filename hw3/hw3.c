@@ -7,8 +7,13 @@
 #include <time.h>
 #include <string.h>
 #define IP_HL(ip)   (((ip)->ver_ihl) & 0x0f)
+#define YES 1
+#define NO -1
 #define ETHER_ADDR_LEN 6
 #define MAC_ADDRSTRLEN 2*6+5+1
+
+static int address_record[1000][9]={0};
+static int row=0;
 
 typedef struct __attribute__((__packed__)) EtherHeader {
     const struct ether_addr destAddr[6];
@@ -74,6 +79,28 @@ typedef struct ip_header
  u_int op_pad;    /* Option + Padding */
 }ip_header;
 
+int Check_If_Exists(struct ip_header *ih){
+    for(int i=0; i<row; i++){
+        if(ih->saddr.byte1==address_record[i][0] && ih->saddr.byte2==address_record[i][1]
+                && ih->saddr.byte3==address_record[i][2] && ih->saddr.byte4==address_record[i][3]
+                && ih->daddr.byte1==address_record[i][4] && ih->daddr.byte2==address_record[i][5]
+                && ih->daddr.byte3==address_record[i][6] && ih->daddr.byte4==address_record[i][7]){
+            address_record[i][8]++;
+            return YES;
+        }
+    }
+    address_record[row][0] = ih->saddr.byte1;
+    address_record[row][1] = ih->saddr.byte2;
+    address_record[row][2] = ih->saddr.byte3;
+    address_record[row][3] = ih->saddr.byte4;
+    address_record[row][4] = ih->daddr.byte1;
+    address_record[row][5] = ih->daddr.byte2;
+    address_record[row][6] = ih->daddr.byte3;
+    address_record[row][7] = ih->daddr.byte4;
+    address_record[row][8] = 1;
+    return NO;
+}
+
 /* Finds the payload of a TCP/IP packet */
 void my_packet_handler(
     u_char *args,
@@ -81,6 +108,7 @@ void my_packet_handler(
     const u_char *packet
 )
 {
+    int col=0;
     //  time stamp
     printf("Time = %s",ctime((const time_t*)&header->ts.tv_sec));
 
@@ -91,7 +119,7 @@ void my_packet_handler(
     printf("Dst MAC: %s\n", ether_ntoa(eth->destAddr));
 
 
-    /* First, lets make sure we have an IP packet */
+    //  檢查是否ip封包。
     struct ip_header *ih;
     struct ether_header *eth_header;
     int ethernet_header_length = 14; /* Doesn't change */
@@ -104,13 +132,18 @@ void my_packet_handler(
     }
     else{
 
+        if(Check_If_Exists(ih) == NO){
+            //  代表剛剛insert了一組，要把row++
+            row++;
+        }
         /* print ip addresse*/
         printf("Ip Address %d.%d.%d.%d -> %d.%d.%d.%d\n",
+        //  Destination address
         ih->saddr.byte1,
         ih->saddr.byte2,
         ih->saddr.byte3,
         ih->saddr.byte4,
-        /*sport,*/
+        //  Source address
         ih->daddr.byte1,
         ih->daddr.byte2,
         ih->daddr.byte3,
@@ -142,6 +175,7 @@ void my_packet_handler(
 
     /* Find start of IP header */
     ip_hdr = packet + ethernet_header_length;
+    //  Ip header的長度。
     ip_header_length = ((*ip_hdr) & 0x0F);
     ip_header_length = ip_header_length * 4;
 
@@ -156,7 +190,7 @@ void my_packet_handler(
        make sure it is TCP before going any further. 
        Protocol is always the 10th byte of the IP header */
     u_char protocol = *(ip_hdr + 9);
-    if (protocol != IPPROTO_TCP) {
+    if (protocol == IPPROTO_UDP) {
         const struct sniff_udp *udp;
         udp = (struct sniff_udp *)(packet+ethernet_header_length+ip_header_length);
         printf("This is an UDP packet\n");
@@ -164,12 +198,15 @@ void my_packet_handler(
         printf("Dst Port = %d\n", ntohs(udp->dport));
         /* return; */
     }
-    else{
+    else if(protocol == IPPROTO_TCP){
         const struct sniff_tcp *tcp;
         tcp = (struct sniff_tcp *)(packet+ethernet_header_length+ip_header_length);
         printf("This is an TCP packet\n");
         printf("Src Port = %d\n", ntohs(tcp->th_sport));
         printf("Dst Port = %d\n", ntohs(tcp->th_dport));
+    }
+    else{
+        printf("Not TCP or UDP Protocol\n");
     }
 
     /* Add the ethernet and ip header length to the start of the packet
@@ -185,10 +222,12 @@ void my_packet_handler(
        how many 32-bit words there are in the header, just like
        the IP header length. We multiply by four again to get a
        byte count. */
+
     /* tcp_header_length = tcp_header_length * 4; */
     /* printf("TCP header length in bytes: %d\n", tcp_header_length); */
 
-    /* /1* Add up all the header sizes to find the payload offset *1/ */
+    /* Add up all the header sizes to find the payload offset */
+
     /* int total_headers_size = ethernet_header_length+ip_header_length+tcp_header_length; */
     /* printf("Size of all headers combined: %d bytes\n", total_headers_size); */
     /* payload_length = header->caplen - */
@@ -211,6 +250,7 @@ void my_packet_handler(
     }
     */
 
+    /* printf("row = %d\n", row); */
     printf("\n");
     cnt++;
     return;
@@ -223,19 +263,32 @@ int main(int argc, char **argv) {
     /* Snapshot length is how many bytes to capture from each packet. This includes*/
     int snapshot_length = 1024;
     /* End the loop after this many packets are captured */
-    int total_packet_count = 200;
+    int total_packet_count = 500;
     u_char *my_arguments = NULL;
     struct bpf_program filter;
     char filter_exp[] = "port 80";
     bpf_u_int32 subnet_mask, ip;
+    if(argc != 3){
+        printf("Please add path to pcap file\n");
+        return 0;
+    }
+    printf("%s\n", argv[2]);
 
 
     /* handle = pcap_open_live(device, snapshot_length, 0, 10000, error_buffer); */
-    fp = pcap_open_offline("pcap_file/icmp fragmented.cap", error_buffer);
+    fp = pcap_open_offline(argv[2], error_buffer);
+    /* fp = pcap_open_offline("pcap_file/ipv6_tcp_ip_cap", error_buffer); */
 
     pcap_loop(fp, total_packet_count, my_packet_handler, my_arguments);
+    /* pcap_loop(handle, 100, my_packet_handler, my_arguments); */
 
     printf("Total packets = %d\n", cnt);
+    for(int i=0; i<row; i++){
+        printf("%d %d %d %d -> %d %d %d %d\tCount = %d\n", address_record[i][0]
+                , address_record[i][1], address_record[i][2], address_record[i][3]
+                , address_record[i][4], address_record[i][5], address_record[i][6]
+                , address_record[i][7], address_record[i][8]);
+    }
     return 0;
 
 }

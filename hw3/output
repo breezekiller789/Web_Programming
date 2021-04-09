@@ -1,617 +1,352 @@
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 9a:7b:0:1:1:1d
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 0
-Dst Port = 39547
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 63:64:65:66:67:68
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 24930
-Dst Port = 25444
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 6b:6c:6d:6e:6f:70
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 26986
-Dst Port = 27500
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 73:74:75:76:77:61
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29042
-Dst Port = 29556
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 64:65:66:67:68:69
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25187
-Dst Port = 25701
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 6c:6d:6e:6f:70:71
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27243
-Dst Port = 27757
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 74:75:76:77:61:62
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29299
-Dst Port = 29813
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 65:66:67:68:69:6a
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25444
-Dst Port = 25958
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 6d:6e:6f:70:71:72
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27500
-Dst Port = 28014
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 75:76:77:61:62:63
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29556
-Dst Port = 30070
-
-Time = Tue Aug 28 02:47:55 2012
-Src MAC: 66:67:68:69:6a:6b
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25701
-Dst Port = 26215
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 9a:7a:0:1:1:1e
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 0
-Dst Port = 39546
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 63:64:65:66:67:68
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 24930
-Dst Port = 25444
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 6b:6c:6d:6e:6f:70
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 26986
-Dst Port = 27500
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 73:74:75:76:77:61
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29042
-Dst Port = 29556
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 64:65:66:67:68:69
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25187
-Dst Port = 25701
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 6c:6d:6e:6f:70:71
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27243
-Dst Port = 27757
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 74:75:76:77:61:62
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29299
-Dst Port = 29813
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 65:66:67:68:69:6a
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25444
-Dst Port = 25958
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 6d:6e:6f:70:71:72
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27500
-Dst Port = 28014
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 75:76:77:61:62:63
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29556
-Dst Port = 30070
-
-Time = Tue Aug 28 02:47:56 2012
-Src MAC: 66:67:68:69:6a:6b
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25701
-Dst Port = 26215
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 9a:79:0:1:1:1f
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 0
-Dst Port = 39545
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 63:64:65:66:67:68
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 24930
-Dst Port = 25444
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 6b:6c:6d:6e:6f:70
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 26986
-Dst Port = 27500
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 73:74:75:76:77:61
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29042
-Dst Port = 29556
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 64:65:66:67:68:69
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25187
-Dst Port = 25701
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 6c:6d:6e:6f:70:71
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27243
-Dst Port = 27757
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 74:75:76:77:61:62
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29299
-Dst Port = 29813
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 65:66:67:68:69:6a
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25444
-Dst Port = 25958
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 6d:6e:6f:70:71:72
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27500
-Dst Port = 28014
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 75:76:77:61:62:63
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29556
-Dst Port = 30070
-
-Time = Tue Aug 28 02:47:57 2012
-Src MAC: 66:67:68:69:6a:6b
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25701
-Dst Port = 26215
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 9a:78:0:1:1:20
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 0
-Dst Port = 39544
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 63:64:65:66:67:68
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 24930
-Dst Port = 25444
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 6b:6c:6d:6e:6f:70
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 26986
-Dst Port = 27500
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 73:74:75:76:77:61
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29042
-Dst Port = 29556
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 64:65:66:67:68:69
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25187
-Dst Port = 25701
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 6c:6d:6e:6f:70:71
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27243
-Dst Port = 27757
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 74:75:76:77:61:62
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29299
-Dst Port = 29813
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 65:66:67:68:69:6a
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25444
-Dst Port = 25958
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 6d:6e:6f:70:71:72
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27500
-Dst Port = 28014
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 75:76:77:61:62:63
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29556
-Dst Port = 30070
-
-Time = Tue Aug 28 02:47:58 2012
-Src MAC: 66:67:68:69:6a:6b
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25701
-Dst Port = 26215
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 9a:77:0:1:1:21
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 0
-Dst Port = 39543
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 63:64:65:66:67:68
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 24930
-Dst Port = 25444
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 6b:6c:6d:6e:6f:70
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 26986
-Dst Port = 27500
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 73:74:75:76:77:61
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29042
-Dst Port = 29556
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 64:65:66:67:68:69
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25187
-Dst Port = 25701
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 6c:6d:6e:6f:70:71
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27243
-Dst Port = 27757
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 74:75:76:77:61:62
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29299
-Dst Port = 29813
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 65:66:67:68:69:6a
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25444
-Dst Port = 25958
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 6d:6e:6f:70:71:72
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27500
-Dst Port = 28014
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 75:76:77:61:62:63
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29556
-Dst Port = 30070
-
-Time = Tue Aug 28 02:47:59 2012
-Src MAC: 66:67:68:69:6a:6b
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25701
-Dst Port = 26215
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 9a:75:0:1:1:23
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 0
-Dst Port = 39541
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 63:64:65:66:67:68
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 24930
-Dst Port = 25444
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 6b:6c:6d:6e:6f:70
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 26986
-Dst Port = 27500
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 73:74:75:76:77:61
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29042
-Dst Port = 29556
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 64:65:66:67:68:69
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25187
-Dst Port = 25701
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 6c:6d:6e:6f:70:71
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27243
-Dst Port = 27757
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 74:75:76:77:61:62
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29299
-Dst Port = 29813
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 65:66:67:68:69:6a
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25444
-Dst Port = 25958
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 6d:6e:6f:70:71:72
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27500
-Dst Port = 28014
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 75:76:77:61:62:63
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29556
-Dst Port = 30070
-
-Time = Tue Aug 28 02:48:05 2012
-Src MAC: 66:67:68:69:6a:6b
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25701
-Dst Port = 26215
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 9a:74:0:1:1:24
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 0
-Dst Port = 39540
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 63:64:65:66:67:68
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 24930
-Dst Port = 25444
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 6b:6c:6d:6e:6f:70
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 26986
-Dst Port = 27500
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 73:74:75:76:77:61
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29042
-Dst Port = 29556
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 64:65:66:67:68:69
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25187
-Dst Port = 25701
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 6c:6d:6e:6f:70:71
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27243
-Dst Port = 27757
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 74:75:76:77:61:62
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29299
-Dst Port = 29813
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 65:66:67:68:69:6a
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25444
-Dst Port = 25958
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 6d:6e:6f:70:71:72
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 27500
-Dst Port = 28014
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 75:76:77:61:62:63
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 29556
-Dst Port = 30070
-
-Time = Tue Aug 28 02:48:06 2012
-Src MAC: 66:67:68:69:6a:6b
-Dst MAC: 0:23:15:1c:83:60
-Ip Address 74.125.236.132 -> 10.10.10.11
-This is an UDP packet
-Src Port = 25701
-Dst Port = 26215
-
-Total packets = 77
+pcap_file/Demo3/http.cap
+Time = Thu May 13 18:17:07 2004
+Src MAC: 0:50:38:af:fe:13
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:08 2004
+Src MAC: d:2c:11:4c:61:8b
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:08 2004
+Src MAC: 0:50:38:af:fe:14
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:08 2004
+Src MAC: 0:50:38:af:fe:14
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:08 2004
+Src MAC: d:2c:11:4c:61:8c
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:08 2004
+Src MAC: d:2c:11:4c:61:8c
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:09 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:09 2004
+Src MAC: d:2c:11:4c:66:f0
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:09 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:09 2004
+Src MAC: d:2c:11:4c:6c:54
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:09 2004
+Src MAC: d:2c:11:4c:71:b8
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:09 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:09 2004
+Src MAC: 0:35:0:37:10:af
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 145.253.2.203
+This is an UDP packet
+Src Port = 3009
+Dst Port = 53
+
+Time = Thu May 13 18:17:09 2004
+Src MAC: d:2c:11:4c:77:1c
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: d:2c:11:4c:7c:80
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: b:c1:0:9a:30:2
+Dst MAC: 0:0:1:0:0:0
+Ip Address 145.253.2.203 -> 145.254.160.237
+This is an UDP packet
+Src Port = 53
+Dst Port = 3009
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: 0:50:36:c2:1e:28
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 216.239.59.99
+This is an TCP packet
+Src Port = 3371
+Dst Port = 80
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: d:2c:11:4c:81:e4
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: d:2c:11:4c:87:48
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: d:2c:11:4c:8c:ac
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:10 2004
+Src MAC: d:2b:2e:6b:53:84
+Dst MAC: 0:0:1:0:0:0
+Ip Address 216.239.59.99 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3371
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: d:2b:2e:6b:53:84
+Dst MAC: 0:0:1:0:0:0
+Ip Address 216.239.59.99 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3371
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: d:2b:2e:6b:59:1a
+Dst MAC: 0:0:1:0:0:0
+Ip Address 216.239.59.99 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3371
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: 0:50:36:c2:20:f9
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 216.239.59.99
+This is an TCP packet
+Src Port = 3371
+Dst Port = 80
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: d:2c:11:4c:92:10
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: d:2c:11:4c:97:74
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: d:2c:11:4c:9c:d8
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: d:2c:11:4c:a2:3c
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:11 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:12 2004
+Src MAC: d:2b:2e:6b:53:84
+Dst MAC: 0:0:1:0:0:0
+Ip Address 216.239.59.99 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3371
+
+Time = Thu May 13 18:17:12 2004
+Src MAC: 0:50:36:c2:20:f9
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 216.239.59.99
+This is an TCP packet
+Src Port = 3371
+Dst Port = 80
+
+Time = Thu May 13 18:17:12 2004
+Src MAC: d:2c:11:4c:a7:a0
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:12 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:25 2004
+Src MAC: d:2c:11:4c:a9:48
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Time = Thu May 13 18:17:25 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:37 2004
+Src MAC: 0:50:38:af:ff:f3
+Dst MAC: fe:ff:20:0:1:0
+Ip Address 145.254.160.237 -> 65.208.228.223
+This is an TCP packet
+Src Port = 3372
+Dst Port = 80
+
+Time = Thu May 13 18:17:37 2004
+Src MAC: d:2c:11:4c:a9:49
+Dst MAC: 0:0:1:0:0:0
+Ip Address 65.208.228.223 -> 145.254.160.237
+This is an TCP packet
+Src Port = 80
+Dst Port = 3372
+
+Total packets = 43
+145 254 160 237 -> 65 208 228 223	Count = 16
+65 208 228 223 -> 145 254 160 237	Count = 18
+145 254 160 237 -> 145 253 2 203	Count = 1
+145 253 2 203 -> 145 254 160 237	Count = 1
+145 254 160 237 -> 216 239 59 99	Count = 3
+216 239 59 99 -> 145 254 160 237	Count = 4
